@@ -1,0 +1,27 @@
+---
+description: Выводы по workspace_kit — только в starter-kit-learnings.md
+globs: workspace/memory/**,workspace/MEMORY.md,workspace/starter-kit-learnings.md,workspace/knowledge/**,.cursor/hooks/**,.cursor/rules/**,.cursor/commands/**
+alwaysApply: false
+---
+
+# Starter kit learnings
+
+**Единственный источник** выводов и рекомендаций по kit в этом проекте: `workspace/starter-kit-learnings.md`.
+
+## Когда писать
+
+Новый **универсальный** паттерн workspace/Cursor (переносим без знания домена). Не рутинная MEMORY/GOALS.
+
+## Алгоритм
+
+1. Проверить backlog/журнал — дополнить `SKL-NNN`, не дублировать.
+2. Обновить `last_entry` в мета.
+3. Протокол sync, CLI, двусторонний обмен — **только в learnings**, не размазывать по BOOTSTRAP/TOOLS.
+
+## Запрещено
+
+- **Любые правки** репозитория [workspace_kit](https://github.com/riantdrew/workspace_kit) из этого проекта (коммиты, push, API, labels).
+- Дублировать выводы по kit в других workspace-файлах.
+- Outbound с секретами, доменом проекта, именем репо.
+
+Репозиторий kit меняется **только в проекте kit** и только по явной просьбе владельца.

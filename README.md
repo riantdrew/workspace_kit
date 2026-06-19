@@ -2,7 +2,7 @@
 
 Протокол внедрения **agent workspace** в существующий проект для [Cursor](https://cursor.com).
 
-**Версия kit:** 1.9 · **Дата:** 19.06.2026
+**Версия kit:** 1.10 · **Дата:** 19.06.2026
 
 ## Что это
 
@@ -49,6 +49,7 @@ https://raw.githubusercontent.com/riantdrew/workspace_kit/main/workspace_kit.md
 - **Goal lens** — принцип сверки любой задачи с целями
 - **Профили** — solo и team
 - **Changelog и миграции** — обновление kit без потери данных
+- **Обратная связь** — GitHub Issues + MCP: агент ищет дубликаты, дополняет или создаёт issue по просьбе
 
 ## Осознанные ограничения
 

@@ -1,6 +1,6 @@
 # kit-exchange
 
-Двусторонний обмен с [workspace_kit](https://github.com/riantdrew/workspace_kit) — протокол v1.13.
+Двусторонний обмен с [workspace_kit](https://github.com/riantdrew/workspace_kit) — протокол v1.14.
 
 ## A. Kit → проект
 
@@ -14,9 +14,9 @@
 
 ## B. Проект → kit
 
-**Ручной:** MEMORY.md, reports/, + `workspace/riantdrew/memory/` (7 дней).
+**Ручной:** MEMORY.md, reports/, + `workspace/<login>/memory/` (7 дней).
 
-**Automation:** только MEMORY.md + reports/ (memory в gitignore).
+**Фоновый (по сессии):** только MEMORY.md + reports/ (memory в gitignore).
 
 1. Универсальные паттерны workspace/Cursor — без домена и секретов
 2. `search_issues` repo:riantdrew/workspace_kit → comment или create
